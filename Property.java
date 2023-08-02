@@ -18,6 +18,7 @@ public abstract class Property implements Propable
 
     public Property(char typeproperty, String name, String contact,int month)
     {
+         // SET YOUR ATTRIBUTE  
         setTypeProperty(typeproperty);
         setName(name);
         setContact(contact);
